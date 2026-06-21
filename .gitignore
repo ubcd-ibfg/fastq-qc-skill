@@ -1,0 +1,37 @@
+# QC outputs — don't check in pipeline artifacts
+qc/
+fastqc_results/
+multiqc_report/
+*_fastqc.html
+*_fastqc.zip
+*_trimming_report.txt
+*_trimmed.fq.gz
+*_val_1.fq.gz
+*_val_2.fq.gz
+multiqc_data/
+
+# FASTQ files — never commit raw data
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.sam
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Skill packaging artifacts (keep dist/fastq-qc.skill, ignore stray builds)
+*.skill.bak
+build/

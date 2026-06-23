@@ -50,14 +50,14 @@ Skills live in `~/.claude/skills/` (personal, available in every project) or `.c
 **Personal install:**
 
 ```bash
-git clone https://github.com/<your-user>/fastq-qc-skill.git
+git clone https://github.com/ubcd-ibfg/fastq-qc-skill.git
 cp -r fastq-qc-skill/fastq-qc ~/.claude/skills/
 ```
 
 **Project install** (the skill ships with a specific repo and is shared with collaborators):
 
 ```bash
-git clone https://github.com/<your-user>/fastq-qc-skill.git
+git clone https://github.com/ubcd-ibfg/fastq-qc-skill.git
 cp -r fastq-qc-skill/fastq-qc /path/to/your/project/.claude/skills/
 ```
 
